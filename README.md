@@ -1,11 +1,12 @@
 # Codex Stuff
 
-Personal and team Codex plugins packaged as a Git-backed marketplace.
+Reusable Codex plugins packaged as a Git-backed marketplace.
 
 ## Install
 
 ```bash
 codex plugin marketplace add thesammykins/codex-stuff --ref main
+codex plugin add arxiv-research@codex-stuff
 codex plugin add local-ci-signoff@codex-stuff
 codex plugin add prompt-rewriter@codex-stuff
 codex plugin add codex-plugin-publisher@codex-stuff

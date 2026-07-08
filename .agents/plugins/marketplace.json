@@ -5,6 +5,18 @@
   },
   "plugins": [
     {
+      "name": "arxiv-research",
+      "source": {
+        "source": "local",
+        "path": "./plugins/arxiv-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
       "name": "local-ci-signoff",
       "source": {
         "source": "local",

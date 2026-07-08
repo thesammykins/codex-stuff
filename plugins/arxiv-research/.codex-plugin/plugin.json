@@ -1,0 +1,36 @@
+{
+  "name": "arxiv-research",
+  "version": "0.1.0",
+  "description": "Search and retrieve papers from arXiv.",
+  "author": {
+    "name": "Codex Stuff"
+  },
+  "homepage": "https://info.arxiv.org/help/api/user-manual.html",
+  "license": "MIT",
+  "keywords": [
+    "arxiv",
+    "research",
+    "papers",
+    "preprints"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "arXiv Research",
+    "shortDescription": "Search arXiv papers from Codex.",
+    "longDescription": "Adds local MCP tools for searching arXiv and retrieving paper metadata, abstracts, and PDF links through the official arXiv API.",
+    "developerName": "Codex Stuff",
+    "category": "Research",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "websiteURL": "https://arxiv.org/",
+    "defaultPrompt": [
+      "Search arXiv for recent papers on diffusion models.",
+      "Fetch arXiv:1706.03762 and summarize the abstract.",
+      "Find recent cs.CL papers about retrieval augmented generation."
+    ],
+    "brandColor": "#B31B1B"
+  }
+}
