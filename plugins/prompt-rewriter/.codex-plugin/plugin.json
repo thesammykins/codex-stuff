@@ -1,14 +1,14 @@
 {
   "name": "prompt-rewriter",
-  "version": "0.1.1",
-  "description": "Rewrite prompts on demand using Codex and current prompt-engineering guidance.",
+  "version": "0.2.0",
+  "description": "Rewrite prompts on demand using Codex and model-specific OpenAI prompt guidance.",
   "author": {
     "name": "Codex Stuff"
   },
   "interface": {
     "displayName": "Prompt Rewriter",
     "shortDescription": "Rewrite prompts on demand before using them.",
-    "longDescription": "Adds a callable Codex command and helper script that rewrites a supplied prompt to be clearer, better scoped, and easier for a coding agent to execute.",
+    "longDescription": "Adds a callable Codex command and helper script that rewrites a supplied prompt to be clearer, better scoped, and tuned to the target OpenAI model family when known.",
     "developerName": "Codex Stuff",
     "category": "Productivity",
     "capabilities": [
