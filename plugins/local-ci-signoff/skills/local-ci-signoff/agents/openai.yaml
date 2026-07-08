@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local CI Signoff"
+  short_description: "Design local CI signoff lanes"
+  default_prompt: "Use $local-ci-signoff to design a local CI signoff workflow for this project."

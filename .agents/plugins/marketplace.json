@@ -1,0 +1,44 @@
+{
+  "name": "codex-stuff",
+  "interface": {
+    "displayName": "Codex Stuff"
+  },
+  "plugins": [
+    {
+      "name": "local-ci-signoff",
+      "source": {
+        "source": "local",
+        "path": "./plugins/local-ci-signoff"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "prompt-rewriter",
+      "source": {
+        "source": "local",
+        "path": "./plugins/prompt-rewriter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "codex-plugin-publisher",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-plugin-publisher"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

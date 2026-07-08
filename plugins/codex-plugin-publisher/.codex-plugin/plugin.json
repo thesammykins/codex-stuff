@@ -1,0 +1,31 @@
+{
+  "name": "codex-plugin-publisher",
+  "version": "0.1.0",
+  "description": "Guidance for sanitizing local Codex plugins and publishing them into a Git-backed marketplace.",
+  "author": {
+    "name": "Codex Stuff"
+  },
+  "keywords": [
+    "codex",
+    "plugins",
+    "marketplace",
+    "publishing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Plugin Publisher",
+    "shortDescription": "Publish plugins to a Git marketplace.",
+    "longDescription": "Helps Codex sanitize locally built plugins, add them to a Git-backed marketplace repository, validate marketplace metadata, and push the result for reuse across Codex environments.",
+    "developerName": "Codex Stuff",
+    "category": "Productivity",
+    "capabilities": [
+      "Write",
+      "Review"
+    ],
+    "defaultPrompt": [
+      "Publish this local plugin to the marketplace.",
+      "Sanitize and add a plugin to codex-stuff.",
+      "Validate the Codex plugin marketplace."
+    ]
+  }
+}

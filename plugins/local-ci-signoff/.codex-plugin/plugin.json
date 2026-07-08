@@ -1,0 +1,31 @@
+{
+  "name": "local-ci-signoff",
+  "version": "0.1.1",
+  "description": "Reusable Codex guidance for moving ordinary CI confidence onto developer machines while preserving remote CI for publishing and release builds.",
+  "author": {
+    "name": "Codex Stuff"
+  },
+  "keywords": [
+    "local-ci",
+    "signoff",
+    "developer-workflow",
+    "github-status",
+    "buildkite"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Local CI Signoff",
+    "shortDescription": "Design project-local CI signoff workflows.",
+    "longDescription": "Local CI Signoff helps Codex inspect a repository's existing validation tasks, design a developer-machine CI gate, and keep remote CI focused on final publishing, protected builds, and release evidence.",
+    "developerName": "Codex Stuff",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Design a local CI signoff lane for this repo.",
+      "Map existing tasks into local and remote CI gates.",
+      "Draft a gh-signoff adoption plan."
+    ]
+  }
+}

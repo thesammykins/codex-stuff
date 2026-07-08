@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Plugin Publisher"
+  short_description: "Publish plugins to Git marketplaces"
+  default_prompt: "Use $codex-plugin-publisher to sanitize and publish a local Codex plugin."
