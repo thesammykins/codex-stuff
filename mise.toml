@@ -1,0 +1,6 @@
+[tools]
+python = "3.13.12"
+
+[tasks.check]
+description = "Validate Codex marketplace metadata."
+run = "python3 scripts/validate_marketplace.py"

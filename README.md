@@ -2,6 +2,8 @@
 
 Reusable Codex plugins packaged as a Git-backed marketplace.
 
+This repo owns plugin packaging only. Fresh-machine installation is orchestrated by [`thesammykins/new-mac`](https://github.com/thesammykins/new-mac), which adds this marketplace and selected plugins for profiles that include `codex-stuff`.
+
 ## Install
 
 ```bash
@@ -30,7 +32,7 @@ The marketplace follows the Codex Git-backed marketplace guidance: plugin entrie
 ## Validate
 
 ```bash
-python3 scripts/validate_marketplace.py
+mise run check
 ```
 
 ## Publishing Rules
