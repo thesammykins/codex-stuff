@@ -1,0 +1,32 @@
+{
+  "name": "chief-of-staff",
+  "version": "0.1.0",
+  "description": "Reusable Codex guidance for setting up quiet, review-gated chief-of-staff automation lanes.",
+  "author": {
+    "name": "Codex Stuff"
+  },
+  "keywords": [
+    "automation",
+    "chief-of-staff",
+    "personal-ops",
+    "workflow"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Chief of Staff",
+    "shortDescription": "Set up quiet Codex chief-of-staff automations.",
+    "longDescription": "Chief of Staff helps Codex create a pinned HQ thread and recurring, read-only automation lanes for briefs, inbox triage, project blockers, and research-to-practice scouting while keeping local profile data separate.",
+    "developerName": "Codex Stuff",
+    "category": "Productivity",
+    "capabilities": [
+      "Automation",
+      "Planning",
+      "Review"
+    ],
+    "defaultPrompt": [
+      "Set up a Codex chief-of-staff system for me.",
+      "Create quiet automation lanes for morning brief, inbox urgency, and project blockers.",
+      "Adapt the Chief of Staff templates to my local profile."
+    ]
+  }
+}

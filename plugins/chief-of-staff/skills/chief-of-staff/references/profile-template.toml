@@ -1,0 +1,47 @@
+# Copy this shape into a private profile plugin or provide the values directly.
+# Do not put credentials, tokens, private keys, or dotenv content here.
+
+[profile]
+name = "default"
+timezone = "Etc/UTC"
+workspace_root = "$HOME/Documents/Codex"
+codex_home = "$HOME/.codex"
+root_guidance_path = "$HOME/.agents/AGENTS.md"
+hq_thread_id_secret = "CODEX_CHIEF_OF_STAFF_HQ_THREAD_ID"
+
+[policy]
+read_only_first = true
+message_hq_only_for_signal = true
+allow_private_slack = false
+allow_email_mutation = false
+allow_task_mutation = false
+allow_file_mutation = false
+
+[lanes.morning_brief]
+enabled = true
+local_window = "08:45-09:30"
+schedule = "weekdays near 09:00 local time"
+model = "gpt-5.4-mini"
+reasoning_effort = "low"
+
+[lanes.inbox_urgency]
+enabled = true
+local_window = "10:00-17:59"
+schedule = "hourly during weekdays"
+model = "gpt-5.4-mini"
+reasoning_effort = "low"
+
+[lanes.project_blockers]
+enabled = true
+local_window = "15:00-16:15"
+schedule = "daily during the workday"
+model = "gpt-5.4-mini"
+reasoning_effort = "low"
+
+[lanes.weekly_research]
+enabled = true
+local_window = "Sunday 07:00-08:30"
+schedule = "weekly before skill maintenance"
+model = "gpt-5.5"
+reasoning_effort = "high"
+

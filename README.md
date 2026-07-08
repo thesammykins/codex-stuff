@@ -7,6 +7,7 @@ Reusable Codex plugins packaged as a Git-backed marketplace.
 ```bash
 codex plugin marketplace add thesammykins/codex-stuff --ref main
 codex plugin add arxiv-research@codex-stuff
+codex plugin add chief-of-staff@codex-stuff
 codex plugin add local-ci-signoff@codex-stuff
 codex plugin add prompt-rewriter@codex-stuff
 codex plugin add codex-plugin-publisher@codex-stuff
