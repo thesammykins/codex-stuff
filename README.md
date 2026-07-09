@@ -17,6 +17,8 @@ codex plugin add codex-plugin-publisher@codex-stuff
 
 After installing or updating a plugin, start a new Codex thread so new skills and plugin metadata are loaded.
 
+The `prompt-rewriter` plugin also includes an optional first-prompt hook installer. After installing the plugin, run the `/install-prompt-rewrite-hook` command when you want that hook enabled for a Codex home.
+
 ## Layout
 
 ```text
@@ -24,6 +26,7 @@ After installing or updating a plugin, start a new Codex thread so new skills an
 plugins/<plugin-name>/.codex-plugin/plugin.json
 plugins/<plugin-name>/skills/
 plugins/<plugin-name>/commands/
+plugins/<plugin-name>/hooks/
 scripts/validate_marketplace.py
 ```
 
